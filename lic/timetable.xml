@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timetable ascttversion="2017.12.10" importtype="database" options="idprefix:MyApp">
+   <teachers options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <teacher id="*1" name="Szymaniak Magdalena" short="SM" htmlexportlink="teachers_0.html?frame=0"/>
+      <teacher id="*2" name="Komarzewska-Skolimowska Regina" short="KSR" htmlexportlink="teachers_0.html?frame=1"/>
+      <teacher id="*3" name="Pisarek-Kemska Sylwia" short="PKS" htmlexportlink="teachers_0.html?frame=2"/>
+      <teacher id="*4" name="Karpińska Magdalena" short="MK" htmlexportlink="teachers_0.html?frame=3"/>
+      <teacher id="*5" name="Linkiewicz Dorota" short="LD" htmlexportlink="teachers_0.html?frame=4"/>
+      <teacher id="*6" name="Chorągiewski Karol" short="CK" htmlexportlink="teachers_0.html?frame=5"/>
+      <teacher id="*7" name="Pinkosz Anna" short="PA" htmlexportlink="teachers_0.html?frame=6"/>
+      <teacher id="*8" name="Kańska-Chodyna Anna" short="KCA" htmlexportlink="teachers_0.html?frame=7"/>
+      <teacher id="*9" name="Wielechowska Mirosława" short="WM" htmlexportlink="teachers_0.html?frame=8"/>
+      <teacher id="*10" name="Chotkowska Jolanta" short="CJ" htmlexportlink="teachers_0.html?frame=9"/>
+      <teacher id="*11" name="Tomczak Anna" short="TA" htmlexportlink="teachers_0.html?frame=10"/>
+      <teacher id="*12" name="Korejwo Magdalena" short="KM" htmlexportlink="teachers_0.html?frame=11"/>
+      <teacher id="*13" name="Pochmara-Hahnkamp Sylwia" short="PHS" htmlexportlink="teachers_0.html?frame=12"/>
+      <teacher id="*14" name="Lorych-Duchiewicz Joanna" short="LDJ" htmlexportlink="teachers_0.html?frame=13"/>
+      <teacher id="*15" name="Bem Krystyna" short="BK" htmlexportlink="teachers_0.html?frame=14"/>
+      <teacher id="*16" name="Sikorska Bogumiła" short="SB" htmlexportlink="teachers_0.html?frame=15"/>
+      <teacher id="*17" name="Seroczyński Marian" short="SeM" htmlexportlink="teachers_0.html?frame=16"/>
+      <teacher id="*18" name="Trawińska Monika" short="TrM" htmlexportlink="teachers_0.html?frame=17"/>
+      <teacher id="*19" name="Kozłowska Ewa" short="EK" htmlexportlink="teachers_0.html?frame=18"/>
+      <teacher id="*20" name="Kozłowski Roman" short="KR" htmlexportlink="teachers_0.html?frame=19"/>
+      <teacher id="*21" name="Werra Anna" short="WA" htmlexportlink="teachers_0.html?frame=20"/>
+      <teacher id="*22" name="Nowicka Agnieszka" short="NA" htmlexportlink="teachers_0.html?frame=21"/>
+      <teacher id="*23" name="Czyżyk-Markiewicz Elżbieta" short="CME" htmlexportlink="teachers_0.html?frame=22"/>
+      <teacher id="*24" name="Jaczyńska Danuta" short="JD" htmlexportlink="teachers_0.html?frame=23"/>
+      <teacher id="*25" name="Hofman Bogusława" short="HB" htmlexportlink="teachers_0.html?frame=24"/>
+      <teacher id="*26" name="Rudź Sabina" short="RS" htmlexportlink="teachers_0.html?frame=25"/>
+      <teacher id="*27" name="Szeklicki Antoni" short="SzA" htmlexportlink="teachers_0.html?frame=26"/>
+      <teacher id="*28" name="Kociński Leszek" short="KL" htmlexportlink="teachers_0.html?frame=27"/>
+      <teacher id="*29" name="Wieliczko-Daliga Ilona" short="WDI" htmlexportlink="teachers_0.html?frame=28"/>
+      <teacher id="*30" name="Jóźwiak-Grudzień Beata" short="JGB" htmlexportlink="teachers_0.html?frame=29"/>
+      <teacher id="*31" name="Maria Gajewska" short="MG" htmlexportlink="teachers_0.html?frame=30"/>
+      <teacher id="*32" name="Sielewicz-Kłopotowska Beata" short="SKB" htmlexportlink="teachers_0.html?frame=31"/>
+      <teacher id="*33" name="Tymińska Marzena" short="TM" htmlexportlink="teachers_0.html?frame=32"/>
+      <teacher id="*34" name="Małek Tomasz" short="MT" htmlexportlink="teachers_0.html?frame=33"/>
+      <teacher id="*35" name="Łobacz Edyta" short="ŁE" htmlexportlink="teachers_0.html?frame=34"/>
+      <teacher id="*36" name="Sukniewicz Wiesław" short="SW" htmlexportlink="teachers_0.html?frame=35"/>
+      <teacher id="*37" name="Madeksza Maciej" short="MM" htmlexportlink="teachers_0.html?frame=36"/>
+      <teacher id="*38" name="Ziętek Karol" short="ZK" htmlexportlink="teachers_0.html?frame=37"/>
+      <teacher id="*39" name="Ozygała Piotr" short="OP" htmlexportlink="teachers_0.html?frame=38"/>
+      <teacher id="*40" name="Jachimowicz Martyna" short="JM" htmlexportlink="teachers_0.html?frame=39"/>
+      <teacher id="*41" name="Łagodzińska Iwona" short="ŁI" htmlexportlink="teachers_0.html?frame=40"/>
+      <teacher id="*42" name="Wioletta Wrona" short="WW" htmlexportlink="teachers_0.html?frame=41"/>
+   </teachers>
+   <classes options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name, short,htmlexportlink">
+      <class id="*1" name="1A" htmlexportlink="index.html?frame=0"/>
+      <class id="*2" name="1B" htmlexportlink="index.html?frame=1"/>
+      <class id="*3" name="1C" htmlexportlink="index.html?frame=2"/>
+      <class id="*4" name="1D" htmlexportlink="index.html?frame=3"/>
+      <class id="*5" name="2A" htmlexportlink="index.html?frame=4"/>
+      <class id="*6" name="2B" htmlexportlink="index.html?frame=5"/>
+      <class id="*7" name="2C" htmlexportlink="index.html?frame=6"/>
+      <class id="*8" name="3A" htmlexportlink="index.html?frame=7"/>
+      <class id="*9" name="3B" htmlexportlink="index.html?frame=8"/>
+   </classes>
+   <subjects options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <subject id="*1" name="j.polski" short="JP" htmlexportlink=""/>
+      <subject id="*2" name="j. angielski" short="JA" htmlexportlink=""/>
+      <subject id="*3" name="J. FRANCUSKI" short="JF" htmlexportlink=""/>
+      <subject id="*4" name="J. NIEMIECKI" short="JN" htmlexportlink=""/>
+      <subject id="*5" name="HISTORIA" short="HIS" htmlexportlink=""/>
+      <subject id="*6" name="WOS" short="WOS" htmlexportlink=""/>
+      <subject id="*7" name="HIST. I SPOŁ." short="HISP" htmlexportlink=""/>
+      <subject id="*8" name="MATEMATYKA" short="MAT" htmlexportlink=""/>
+      <subject id="*9" name="FIZYKA" short="FIZ" htmlexportlink=""/>
+      <subject id="*10" name="CHEMIA" short="CHEM" htmlexportlink=""/>
+      <subject id="*11" name="BIOLOGIA" short="BIOL" htmlexportlink=""/>
+      <subject id="*12" name="GEOGRAFIA" short="GEO" htmlexportlink=""/>
+      <subject id="*13" name="MUZYKA" short="MUZ" htmlexportlink=""/>
+      <subject id="*14" name="ZAJ. ART." short="Z_ART" htmlexportlink=""/>
+      <subject id="*15" name="ZAJ. TECHN." short="Z_TECH" htmlexportlink=""/>
+      <subject id="*16" name="INFORMATYKA" short="INF" htmlexportlink=""/>
+      <subject id="*17" name="EDB" short="EDB" htmlexportlink=""/>
+      <subject id="*18" name="GW" short="GW" htmlexportlink=""/>
+      <subject id="*19" name="WOK" short="WOK" htmlexportlink=""/>
+      <subject id="*20" name="PP" short="PP" htmlexportlink=""/>
+      <subject id="*21" name="WF" short="WF" htmlexportlink=""/>
+      <subject id="*22" name="RELIGIA" short="REL" htmlexportlink=""/>
+      <subject id="*23" name="MAT6" short="MAT6" htmlexportlink=""/>
+      <subject id="*24" name="MAT8" short="MAT8" htmlexportlink=""/>
+      <subject id="*25" name="J.ANG PP" short="JA PP" htmlexportlink=""/>
+      <subject id="*26" name="J.ANG PR" short="JA PR" htmlexportlink=""/>
+      <subject id="*27" name="J. NIEM PR" short="JN PR" htmlexportlink=""/>
+      <subject id="*28" name="MATpp" short="MATpp" htmlexportlink=""/>
+      <subject id="*29" name="PLASTYKA" short="PLAST" htmlexportlink=""/>
+      <subject id="*30" name="ETYKA" short="ETK" htmlexportlink=""/>
+      <subject id="*31" name="WDŻ" short="WDŻ" htmlexportlink=""/>
+      <subject id="*32" name="JĘZYK POLSKI PR" short="JP PR" htmlexportlink=""/>
+      <subject id="*33" name="JĘZYK POLSKI PP" short="JP PP" htmlexportlink=""/>
+      <subject id="*34" name="MATEMATYKA PR" short="MAT PR" htmlexportlink=""/>
+      <subject id="*35" name="FIZYKA KOŁO" short="FIZk" htmlexportlink=""/>
+      <subject id="*36" name="JFp" short="JFp" htmlexportlink=""/>
+      <subject id="*37" name="JFk" short="JFk" htmlexportlink=""/>
+      <subject id="*38" name="JNk" short="JNk" htmlexportlink=""/>
+      <subject id="*39" name="Przyroda" short="PRZYR" htmlexportlink=""/>
+      <subject id="*40" name="edukacja prawna" short="EP" htmlexportlink=""/>
+   </subjects>
+   <classrooms options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <classroom id="*1" name="JN1" short="1" htmlexportlink="rooms.html?frame=0"/>
+      <classroom id="*2" name="GEO2" short="2" htmlexportlink="rooms.html?frame=1"/>
+      <classroom id="*3" name="BIOL3" short="3" htmlexportlink="rooms.html?frame=2"/>
+      <classroom id="*4" name="MAT4" short="4" htmlexportlink="rooms.html?frame=3"/>
+      <classroom id="*5" name="POL5" short="5" htmlexportlink="rooms.html?frame=4"/>
+      <classroom id="*6" name="INF12" short="12" htmlexportlink="rooms.html?frame=5"/>
+      <classroom id="*7" name="ANG13" short="13" htmlexportlink="rooms.html?frame=6"/>
+      <classroom id="*8" name="INF14" short="14" htmlexportlink="rooms.html?frame=7"/>
+      <classroom id="*9" name="ANG15" short="15" htmlexportlink="rooms.html?frame=8"/>
+      <classroom id="*10" name="HIST16" short="16" htmlexportlink="rooms.html?frame=9"/>
+      <classroom id="*11" name="HIST17" short="17" htmlexportlink="rooms.html?frame=10"/>
+      <classroom id="*12" name="MAT18" short="18" htmlexportlink="rooms.html?frame=11"/>
+      <classroom id="*13" name="POL19" short="19" htmlexportlink="rooms.html?frame=12"/>
+      <classroom id="*14" name="FIZ20" short="20" htmlexportlink="rooms.html?frame=13"/>
+      <classroom id="*15" name="CHEM21" short="21" htmlexportlink="rooms.html?frame=14"/>
+      <classroom id="*16" name="ANG22" short="22" htmlexportlink="rooms.html?frame=15"/>
+      <classroom id="*17" name="FR23" short="23" htmlexportlink="rooms.html?frame=16"/>
+      <classroom id="*18" name="POL24" short="24" htmlexportlink="rooms.html?frame=17"/>
+      <classroom id="*19" name="NIEM25" short="25" htmlexportlink="rooms.html?frame=18"/>
+      <classroom id="*20" name="ANG29a" short="29a" htmlexportlink="rooms.html?frame=19"/>
+      <classroom id="*21" name="POL29" short="29" htmlexportlink="rooms.html?frame=20"/>
+      <classroom id="*22" name="ART30" short="30" htmlexportlink="rooms.html?frame=21"/>
+      <classroom id="*23" name="REL34" short="34" htmlexportlink="rooms.html?frame=22"/>
+      <classroom id="*24" name="ST41" short="ST41" htmlexportlink="rooms.html?frame=23"/>
+      <classroom id="*25" name="AUL" short="AUL" htmlexportlink="rooms.html?frame=24"/>
+      <classroom id="*26" name="SIŁ" short="SIŁ" htmlexportlink="rooms.html?frame=25"/>
+      <classroom id="*27" name="SG" short="SG" htmlexportlink="rooms.html?frame=26"/>
+      <classroom id="*28" name="S G" short="S G" htmlexportlink="rooms.html?frame=27"/>
+   </classrooms>
+   <students options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,classid,name,htmlexportlink">
+      <student id="*1" name="Biazik Alicja" classid="*1" htmlexportlink="students_0.html?frame=0"/>
+      <student id="*2" name="Brzozowska Kinga" classid="*1" htmlexportlink="students_0.html?frame=1"/>
+      <student id="*3" name="Chrobak Aleksandra" classid="*1" htmlexportlink="students_0.html?frame=2"/>
+      <student id="*4" name="Czetyrba Oksana" classid="*1" htmlexportlink="students_0.html?frame=3"/>
+      <student id="*5" name="Dziedzina Agnieszka" classid="*1" htmlexportlink="students_0.html?frame=4"/>
+      <student id="*6" name="Eljasiak Alicja" classid="*1" htmlexportlink="students_0.html?frame=5"/>
+      <student id="*7" name="Grygołowicz Julia" classid="*1" htmlexportlink="students_0.html?frame=6"/>
+      <student id="*8" name="Grykin Magdalena" classid="*1" htmlexportlink="students_0.html?frame=7"/>
+      <student id="*9" name="Gudaczewski Adam" classid="*1" htmlexportlink="students_0.html?frame=8"/>
+      <student id="*10" name="Jarzyńska Karolina" classid="*1" htmlexportlink="students_0.html?frame=9"/>
+      <student id="*11" name="Jasiński Patryk" classid="*1" htmlexportlink="students_0.html?frame=10"/>
+      <student id="*12" name="Kardaś Natalia" classid="*1" htmlexportlink="students_0.html?frame=11"/>
+      <student id="*13" name="Kisiel Beata" classid="*1" htmlexportlink="students_0.html?frame=12"/>
+      <student id="*14" name="Klapper Claudia" classid="*1" htmlexportlink="students_0.html?frame=13"/>
+      <student id="*15" name="Kłyż Weronika" classid="*1" htmlexportlink="students_0.html?frame=14"/>
+      <student id="*16" name="Koczwara Kamil" classid="*1" htmlexportlink="students_0.html?frame=15"/>
+      <student id="*17" name="Mackiewicz Wiktor" classid="*1" htmlexportlink="students_0.html?frame=16"/>
+      <student id="*18" name="Milewska Agata" classid="*1" htmlexportlink="students_0.html?frame=17"/>
+      <student id="*19" name="Milewska Emilia" classid="*1" htmlexportlink="students_0.html?frame=18"/>
+      <student id="*20" name="Nette Daniel" classid="*1" htmlexportlink="students_0.html?frame=19"/>
+      <student id="*21" name="Pawłowicz Kaja" classid="*1" htmlexportlink="students_0.html?frame=20"/>
+      <student id="*22" name="Siewierz Maria" classid="*1" htmlexportlink="students_0.html?frame=21"/>
+      <student id="*23" name="Szlachetka Amelia" classid="*1" htmlexportlink="students_0.html?frame=22"/>
+      <student id="*24" name="Tartas Iga" classid="*1" htmlexportlink="students_0.html?frame=23"/>
+      <student id="*25" name="Walczak Zofia" classid="*1" htmlexportlink="students_0.html?frame=24"/>
+      <student id="*26" name="Brzozowski Marcin" classid="*2" htmlexportlink="students_0.html?frame=25"/>
+      <student id="*27" name="Buczek Aleksandra" classid="*2" htmlexportlink="students_0.html?frame=26"/>
+      <student id="*28" name="Bujnowski Michał" classid="*2" htmlexportlink="students_0.html?frame=27"/>
+      <student id="*29" name="Daniłowicz Adam" classid="*2" htmlexportlink="students_0.html?frame=28"/>
+      <student id="*30" name="Daniłowicz Jakub" classid="*2" htmlexportlink="students_0.html?frame=29"/>
+      <student id="*31" name="Dąbrowska Daria" classid="*2" htmlexportlink="students_0.html?frame=30"/>
+      <student id="*32" name="Grużewska Patrycja" classid="*2" htmlexportlink="students_0.html?frame=31"/>
+      <student id="*33" name="Grykin Natalia" classid="*2" htmlexportlink="students_0.html?frame=32"/>
+      <student id="*34" name="Jaros Paulina" classid="*2" htmlexportlink="students_0.html?frame=33"/>
+      <student id="*35" name="Kozłowska Izabela" classid="*2" htmlexportlink="students_0.html?frame=34"/>
+      <student id="*36" name="Lesińska Agata" classid="*2" htmlexportlink="students_0.html?frame=35"/>
+      <student id="*37" name="Łuczyński Maciej" classid="*2" htmlexportlink="students_0.html?frame=36"/>
+      <student id="*38" name="Ochocki Dawid" classid="*2" htmlexportlink="students_0.html?frame=37"/>
+      <student id="*39" name="Osiecka Dominika" classid="*2" htmlexportlink="students_0.html?frame=38"/>
+      <student id="*40" name="Paratowski Patryk" classid="*2" htmlexportlink="students_0.html?frame=39"/>
+      <student id="*41" name="Podlewska Natalia" classid="*2" htmlexportlink="students_0.html?frame=40"/>
+      <student id="*42" name="Pogorzelska Karolina" classid="*2" htmlexportlink="students_0.html?frame=41"/>
+      <student id="*43" name="Rutkowska Aleksandra" classid="*2" htmlexportlink="students_0.html?frame=42"/>
+      <student id="*44" name="Sławińska Daria" classid="*2" htmlexportlink="students_0.html?frame=43"/>
+      <student id="*45" name="Stempka Aneta" classid="*2" htmlexportlink="students_0.html?frame=44"/>
+      <student id="*46" name="Świerczyńska Izabela" classid="*2" htmlexportlink="students_0.html?frame=45"/>
+      <student id="*47" name="Więcek Katarzyna" classid="*2" htmlexportlink="students_0.html?frame=46"/>
+      <student id="*48" name="Zakrzewska Maja" classid="*2" htmlexportlink="students_0.html?frame=47"/>
+      <student id="*49" name="Żukowska Julia" classid="*2" htmlexportlink="students_0.html?frame=48"/>
+      <student id="*50" name="Andrzejewski Maciej" classid="*3" htmlexportlink="students_0.html?frame=49"/>
+      <student id="*51" name="Antczak Piotr" classid="*3" htmlexportlink="students_1.html?frame=0"/>
+      <student id="*52" name="Augustynowicz Urszula" classid="*3" htmlexportlink="students_1.html?frame=1"/>
+      <student id="*53" name="Bagiński Michał" classid="*3" htmlexportlink="students_1.html?frame=2"/>
+      <student id="*54" name="Borgosz Gabriela" classid="*3" htmlexportlink="students_1.html?frame=3"/>
+      <student id="*55" name="Brzostek Julia" classid="*3" htmlexportlink="students_1.html?frame=4"/>
+      <student id="*56" name="Chowański Piotr" classid="*3" htmlexportlink="students_1.html?frame=5"/>
+      <student id="*57" name="Chudzik Wiktoria" classid="*3" htmlexportlink="students_1.html?frame=6"/>
+      <student id="*58" name="Deręgowska Julia" classid="*3" htmlexportlink="students_1.html?frame=7"/>
+      <student id="*59" name="Kondrusik Aleksandra" classid="*3" htmlexportlink="students_1.html?frame=8"/>
+      <student id="*60" name="Kozieniec Filip" classid="*3" htmlexportlink="students_1.html?frame=9"/>
+      <student id="*61" name="Kwiatkowski Dawid" classid="*3" htmlexportlink="students_1.html?frame=10"/>
+      <student id="*62" name="Mackiewicz Jan" classid="*3" htmlexportlink="students_1.html?frame=11"/>
+      <student id="*63" name="Miśków Krzysztof" classid="*3" htmlexportlink="students_1.html?frame=12"/>
+      <student id="*64" name="Pałka Maciej" classid="*3" htmlexportlink="students_1.html?frame=13"/>
+      <student id="*65" name="Rogożyński Karol" classid="*3" htmlexportlink="students_1.html?frame=14"/>
+      <student id="*66" name="Rutkowski Wojciech" classid="*3" htmlexportlink="students_1.html?frame=15"/>
+      <student id="*67" name="Rybka Sebastian" classid="*3" htmlexportlink="students_1.html?frame=16"/>
+      <student id="*68" name="Sienicka Zofia" classid="*3" htmlexportlink="students_1.html?frame=17"/>
+      <student id="*69" name="Skalski Filip" classid="*3" htmlexportlink="students_1.html?frame=18"/>
+      <student id="*70" name="Stasiewicz Hanna" classid="*3" htmlexportlink="students_1.html?frame=19"/>
+      <student id="*71" name="Szon Wojciech" classid="*3" htmlexportlink="students_1.html?frame=20"/>
+      <student id="*72" name="Szymczak Robert" classid="*3" htmlexportlink="students_1.html?frame=21"/>
+      <student id="*73" name="Wiereńko Julia" classid="*3" htmlexportlink="students_1.html?frame=22"/>
+      <student id="*74" name="Zemsta Małgorzata" classid="*3" htmlexportlink="students_1.html?frame=23"/>
+      <student id="*75" name="Badaczewska Magdalena" classid="*4" htmlexportlink="students_1.html?frame=24"/>
+      <student id="*76" name="Brzeziński Rafał" classid="*4" htmlexportlink="students_1.html?frame=25"/>
+      <student id="*77" name="Chałanicz Iga" classid="*4" htmlexportlink="students_1.html?frame=26"/>
+      <student id="*78" name="Chądzyńska Aleksandra" classid="*4" htmlexportlink="students_1.html?frame=27"/>
+      <student id="*79" name="Domańska Aleksandra" classid="*4" htmlexportlink="students_1.html?frame=28"/>
+      <student id="*80" name="Dudziuk Iga" classid="*4" htmlexportlink="students_1.html?frame=29"/>
+      <student id="*81" name="Gościewska Paulina" classid="*4" htmlexportlink="students_1.html?frame=30"/>
+      <student id="*82" name="Jagiełłowicz Kamila" classid="*4" htmlexportlink="students_1.html?frame=31"/>
+      <student id="*83" name="Jaworska Weronika" classid="*4" htmlexportlink="students_1.html?frame=32"/>
+      <student id="*84" name="Kasjaniuk Michał" classid="*4" htmlexportlink="students_1.html?frame=33"/>
+      <student id="*85" name="Kucharska Maria" classid="*4" htmlexportlink="students_1.html?frame=34"/>
+      <student id="*86" name="Łydzińska Zuzanna" classid="*4" htmlexportlink="students_1.html?frame=35"/>
+      <student id="*87" name="Menacho Vargas Victoria" classid="*4" htmlexportlink="students_1.html?frame=36"/>
+      <student id="*88" name="Pasławska Julia" classid="*4" htmlexportlink="students_1.html?frame=37"/>
+      <student id="*89" name="Rydzewska Agata" classid="*4" htmlexportlink="students_1.html?frame=38"/>
+      <student id="*90" name="Sadowski Michał" classid="*4" htmlexportlink="students_1.html?frame=39"/>
+      <student id="*91" name="Szabłowski Mateusz" classid="*4" htmlexportlink="students_1.html?frame=40"/>
+      <student id="*92" name="Szymański Wiktor" classid="*4" htmlexportlink="students_1.html?frame=41"/>
+      <student id="*93" name="Tokarzewski Michał" classid="*4" htmlexportlink="students_1.html?frame=42"/>
+      <student id="*94" name="Wedle Weronika" classid="*4" htmlexportlink="students_1.html?frame=43"/>
+      <student id="*95" name="Wielechowski Grzegorz" classid="*4" htmlexportlink="students_1.html?frame=44"/>
+      <student id="*96" name="Andrzejewska Wiktoria" classid="*5" htmlexportlink="students_1.html?frame=45"/>
+      <student id="*97" name="Błoniecka Julia" classid="*5" htmlexportlink="students_1.html?frame=46"/>
+      <student id="*98" name="Czepil Ewa" classid="*5" htmlexportlink="students_1.html?frame=47"/>
+      <student id="*99" name="Furgała Karolina" classid="*5" htmlexportlink="students_1.html?frame=48"/>
+      <student id="*100" name="Gołaszewski Wojciech" classid="*5" htmlexportlink="students_1.html?frame=49"/>
+      <student id="*101" name="Kalinowska Oliwia" classid="*5" htmlexportlink="students_2.html?frame=0"/>
+      <student id="*102" name="Kulis Mateusz" classid="*5" htmlexportlink="students_2.html?frame=1"/>
+      <student id="*103" name="Lizińska Paulina" classid="*5" htmlexportlink="students_2.html?frame=2"/>
+      <student id="*104" name="Malinowska Patrycja" classid="*5" htmlexportlink="students_2.html?frame=3"/>
+      <student id="*105" name="Michałowska Natalia" classid="*5" htmlexportlink="students_2.html?frame=4"/>
+      <student id="*106" name="Murawska Julia" classid="*5" htmlexportlink="students_2.html?frame=5"/>
+      <student id="*107" name="Muszyńska Aleksandra" classid="*5" htmlexportlink="students_2.html?frame=6"/>
+      <student id="*108" name="Och Aleksander" classid="*5" htmlexportlink="students_2.html?frame=7"/>
+      <student id="*109" name="Pejas Małgorzata" classid="*5" htmlexportlink="students_2.html?frame=8"/>
+      <student id="*110" name="Popielarczyk Alicja" classid="*5" htmlexportlink="students_2.html?frame=9"/>
+      <student id="*111" name="Prystrom Łukasz" classid="*5" htmlexportlink="students_2.html?frame=10"/>
+      <student id="*112" name="Rucińska Klaudia" classid="*5" htmlexportlink="students_2.html?frame=11"/>
+      <student id="*113" name="Rynkiewicz Jędrzej" classid="*5" htmlexportlink="students_2.html?frame=12"/>
+      <student id="*114" name="Sadłowska Patrycja" classid="*5" htmlexportlink="students_2.html?frame=13"/>
+      <student id="*115" name="Stankiewicz Konrad" classid="*5" htmlexportlink="students_2.html?frame=14"/>
+      <student id="*116" name="Szuwalska Maja" classid="*5" htmlexportlink="students_2.html?frame=15"/>
+      <student id="*117" name="Szymański Rafał" classid="*5" htmlexportlink="students_2.html?frame=16"/>
+      <student id="*118" name="Tłoczkowski Szymon" classid="*5" htmlexportlink="students_2.html?frame=17"/>
+      <student id="*119" name="Wąsikowska Aleksandra" classid="*5" htmlexportlink="students_2.html?frame=18"/>
+      <student id="*120" name="Wiktorowicz Antonina" classid="*5" htmlexportlink="students_2.html?frame=19"/>
+      <student id="*121" name="Żegarska Olga" classid="*5" htmlexportlink="students_2.html?frame=20"/>
+      <student id="*122" name="Bugowska Sandra" classid="*6" htmlexportlink="students_2.html?frame=21"/>
+      <student id="*123" name="Buzderewicz Tomasz" classid="*6" htmlexportlink="students_2.html?frame=22"/>
+      <student id="*124" name="Chabowski Aleksy" classid="*6" htmlexportlink="students_2.html?frame=23"/>
+      <student id="*125" name="Dramiński Michał" classid="*6" htmlexportlink="students_2.html?frame=24"/>
+      <student id="*126" name="Eljasiak Bartłomiej" classid="*6" htmlexportlink="students_2.html?frame=25"/>
+      <student id="*127" name="Fijałkowska Aleksandra" classid="*6" htmlexportlink="students_2.html?frame=26"/>
+      <student id="*128" name="Jarmakowicz  Patryk" classid="*6" htmlexportlink="students_2.html?frame=27"/>
+      <student id="*129" name="Kulesza Julita" classid="*6" htmlexportlink="students_2.html?frame=28"/>
+      <student id="*130" name="Makowski Michał" classid="*6" htmlexportlink="students_2.html?frame=29"/>
+      <student id="*131" name="Małysz Kuba" classid="*6" htmlexportlink="students_2.html?frame=30"/>
+      <student id="*132" name="Nadolski Wojciech" classid="*6" htmlexportlink="students_2.html?frame=31"/>
+      <student id="*133" name="Piechowicz Piotr" classid="*6" htmlexportlink="students_2.html?frame=32"/>
+      <student id="*134" name="Pierewoj  Herkules" classid="*6" htmlexportlink="students_2.html?frame=33"/>
+      <student id="*135" name="Pogorzelski Piotr" classid="*6" htmlexportlink="students_2.html?frame=34"/>
+      <student id="*136" name="Przybyszewski Michał" classid="*6" htmlexportlink="students_2.html?frame=35"/>
+      <student id="*137" name="Skolimowska Iga" classid="*6" htmlexportlink="students_2.html?frame=36"/>
+      <student id="*138" name="Skowroński Maciej" classid="*6" htmlexportlink="students_2.html?frame=37"/>
+      <student id="*139" name="Smolski Wiktor" classid="*6" htmlexportlink="students_2.html?frame=38"/>
+      <student id="*140" name="Szabłowski Cezary" classid="*6" htmlexportlink="students_2.html?frame=39"/>
+      <student id="*141" name="Tkacz Kornelia" classid="*6" htmlexportlink="students_2.html?frame=40"/>
+      <student id="*142" name="Wakszyńska Karolina" classid="*6" htmlexportlink="students_2.html?frame=41"/>
+      <student id="*143" name="Wieczorek Paweł" classid="*6" htmlexportlink="students_2.html?frame=42"/>
+      <student id="*144" name="Żebrowska Małgorzata" classid="*6" htmlexportlink="students_2.html?frame=43"/>
+      <student id="*145" name="Białas Bogna" classid="*7" htmlexportlink="students_2.html?frame=44"/>
+      <student id="*146" name="Deptuła Małgorzata" classid="*7" htmlexportlink="students_2.html?frame=45"/>
+      <student id="*147" name="Dryl Karolina" classid="*7" htmlexportlink="students_2.html?frame=46"/>
+      <student id="*148" name="Glinka Jan" classid="*7" htmlexportlink="students_2.html?frame=47"/>
+      <student id="*149" name="Gosiewski Maciej" classid="*7" htmlexportlink="students_2.html?frame=48"/>
+      <student id="*150" name="Górko Dominika" classid="*7" htmlexportlink="students_2.html?frame=49"/>
+      <student id="*151" name="Homza Martyna" classid="*7" htmlexportlink="students_3.html?frame=0"/>
+      <student id="*152" name="Kierul Aleksander" classid="*7" htmlexportlink="students_3.html?frame=1"/>
+      <student id="*153" name="Kołakowska Wiktoria" classid="*7" htmlexportlink="students_3.html?frame=2"/>
+      <student id="*154" name="Kowalik Elżbieta" classid="*7" htmlexportlink="students_3.html?frame=3"/>
+      <student id="*155" name="Kuleta Zuzanna" classid="*7" htmlexportlink="students_3.html?frame=4"/>
+      <student id="*156" name="Lobert Magdalena" classid="*7" htmlexportlink="students_3.html?frame=5"/>
+      <student id="*157" name="Małkowski Michał" classid="*7" htmlexportlink="students_3.html?frame=6"/>
+      <student id="*158" name="Mierzyński Michał" classid="*7" htmlexportlink="students_3.html?frame=7"/>
+      <student id="*159" name="Mroczka Marcin" classid="*7" htmlexportlink="students_3.html?frame=8"/>
+      <student id="*160" name="Nieć Aleksandra" classid="*7" htmlexportlink="students_3.html?frame=9"/>
+      <student id="*161" name="Przyłęcka Karolina" classid="*7" htmlexportlink="students_3.html?frame=10"/>
+      <student id="*162" name="Schelski Zuzanna" classid="*7" htmlexportlink="students_3.html?frame=11"/>
+      <student id="*163" name="Stręk Zuzanna" classid="*7" htmlexportlink="students_3.html?frame=12"/>
+      <student id="*164" name="Strot Alicja" classid="*7" htmlexportlink="students_3.html?frame=13"/>
+      <student id="*165" name="Szczepańska Zofia" classid="*7" htmlexportlink="students_3.html?frame=14"/>
+      <student id="*166" name="Szulc Maciej" classid="*7" htmlexportlink="students_3.html?frame=15"/>
+      <student id="*167" name="Tarazewicz Iga" classid="*7" htmlexportlink="students_3.html?frame=16"/>
+      <student id="*168" name="Turek Karolina" classid="*7" htmlexportlink="students_3.html?frame=17"/>
+      <student id="*169" name="Zmysłowska Izabela" classid="*7" htmlexportlink="students_3.html?frame=18"/>
+      <student id="*170" name="Żołnowska Weronika" classid="*7" htmlexportlink="students_3.html?frame=19"/>
+      <student id="*171" name="ABRAMCZYK DARIA" classid="*8" htmlexportlink="students_3.html?frame=20"/>
+      <student id="*172" name="BORKOWSKA MONIKA" classid="*8" htmlexportlink="students_3.html?frame=21"/>
+      <student id="*173" name="Burek Paulina" classid="*8" htmlexportlink="students_3.html?frame=22"/>
+      <student id="*174" name="CĄKAŁA OLGA" classid="*8" htmlexportlink="students_3.html?frame=23"/>
+      <student id="*175" name="DOBRZYŃSKA MARTA" classid="*8" htmlexportlink="students_3.html?frame=24"/>
+      <student id="*176" name="FRĄCZYK Ada" classid="*8" htmlexportlink="students_3.html?frame=25"/>
+      <student id="*177" name="HASIUK MAGDALENA" classid="*8" htmlexportlink="students_3.html?frame=26"/>
+      <student id="*178" name="KLINK NATALIA" classid="*8" htmlexportlink="students_3.html?frame=27"/>
+      <student id="*179" name="MARCINOWSKA AGATA" classid="*8" htmlexportlink="students_3.html?frame=28"/>
+      <student id="*180" name="MATFIEJUK NINA" classid="*8" htmlexportlink="students_3.html?frame=29"/>
+      <student id="*181" name="MATUSZEWICZ JAKUB" classid="*8" htmlexportlink="students_3.html?frame=30"/>
+      <student id="*182" name="Miejłuk  Izabella" classid="*8" htmlexportlink="students_3.html?frame=31"/>
+      <student id="*183" name="PERLIŃSKA MARIA" classid="*8" htmlexportlink="students_3.html?frame=32"/>
+      <student id="*184" name="RADWANIECKA ZUZANNA" classid="*8" htmlexportlink="students_3.html?frame=33"/>
+      <student id="*185" name="SADONIS ALICJA" classid="*8" htmlexportlink="students_3.html?frame=34"/>
+      <student id="*186" name="Słowakiewicz Miłosz" classid="*8" htmlexportlink="students_3.html?frame=35"/>
+      <student id="*187" name="SOCHAŃ MATEUSZ" classid="*8" htmlexportlink="students_3.html?frame=36"/>
+      <student id="*188" name="STARCZEWSKA KLARA" classid="*8" htmlexportlink="students_3.html?frame=37"/>
+      <student id="*189" name="TRACEWICZ URSZULA" classid="*8" htmlexportlink="students_3.html?frame=38"/>
+      <student id="*190" name="WACHOWSKA AGATA" classid="*8" htmlexportlink="students_3.html?frame=39"/>
+      <student id="*191" name="ZAREMBA NATALIA" classid="*8" htmlexportlink="students_3.html?frame=40"/>
+      <student id="*192" name="BABICZ PIOTR" classid="*9" htmlexportlink="students_3.html?frame=41"/>
+      <student id="*193" name="BÓRAWSKI MAREK" classid="*9" htmlexportlink="students_3.html?frame=42"/>
+      <student id="*194" name="DANILUK FILIP" classid="*9" htmlexportlink="students_3.html?frame=43"/>
+      <student id="*195" name="DĄBKOWSKA EWA" classid="*9" htmlexportlink="students_3.html?frame=44"/>
+      <student id="*196" name="DERA KACPER" classid="*9" htmlexportlink="students_3.html?frame=45"/>
+      <student id="*197" name="FRANCZAK JAKUB" classid="*9" htmlexportlink="students_3.html?frame=46"/>
+      <student id="*198" name="GÓRKA MONIKA" classid="*9" htmlexportlink="students_3.html?frame=47"/>
+      <student id="*199" name="GÓRSKI FRANCISZEK" classid="*9" htmlexportlink="students_3.html?frame=48"/>
+      <student id="*200" name="JABŁOŃSKI KASPER" classid="*9" htmlexportlink="students_3.html?frame=49"/>
+      <student id="*201" name="KLESZEWSKI OLGIERD" classid="*9" htmlexportlink="students_4.html?frame=0"/>
+      <student id="*202" name="KOREJWO ZUZANNA" classid="*9" htmlexportlink="students_4.html?frame=1"/>
+      <student id="*203" name="KOTLEWSKI MICHAŁ" classid="*9" htmlexportlink="students_4.html?frame=2"/>
+      <student id="*204" name="KRZYWICKI PIOTR" classid="*9" htmlexportlink="students_4.html?frame=3"/>
+      <student id="*205" name="KULAS MACIEJ" classid="*9" htmlexportlink="students_4.html?frame=4"/>
+      <student id="*206" name="MONSIORSKA ANNA" classid="*9" htmlexportlink="students_4.html?frame=5"/>
+      <student id="*207" name="Osowski Szymon" classid="*9" htmlexportlink="students_4.html?frame=6"/>
+      <student id="*208" name="OZIEWICZ KATARZYNA" classid="*9" htmlexportlink="students_4.html?frame=7"/>
+      <student id="*209" name="PIECZYSKI ARKADIUSZ" classid="*9" htmlexportlink="students_4.html?frame=8"/>
+      <student id="*210" name="PRZYBUŁOWSKI KRZYSZTOF" classid="*9" htmlexportlink="students_4.html?frame=9"/>
+      <student id="*211" name="Sadurski Karol" classid="*9" htmlexportlink="students_4.html?frame=10"/>
+      <student id="*212" name="STUPIŃSKI PAWEŁ" classid="*9" htmlexportlink="students_4.html?frame=11"/>
+      <student id="*213" name="WYSZYŃSKA ADRIANNA" classid="*9" htmlexportlink="students_4.html?frame=12"/>
+      <student id="*214" name="ZŁAKOWSKI KRZYSZTOF" classid="*9" htmlexportlink="students_4.html?frame=13"/>
+      <student id="*215" name="ZŁAKOWSKI SZYMON" classid="*9" htmlexportlink="students_4.html?frame=14"/>
+      <student id="*216" name="ŻENDARSKI MIKOŁAJ" classid="*9" htmlexportlink="students_4.html?frame=15"/>
+   </students>
+   <Settings bPrintClass="1" bPrintTeacher="1" bPrintClassroom="0" bPrintStudents="1" strPrintClass="Oddziały (klasy)" strPrintTeacher="Nauczyciele" strPrintClassroom="Sale szkolne" strPrintStudent="Uczniowie" strPrintSummary="Ogólne plany" bPrintSummaryClass="1" bPrintSummaryTeacher="1" bPrintSummaryClassroom="0" strPrintSummaryClass="Oddziały (klasy)" strPrintSummaryTeacher="Nauczyciele" strPrintSummaryClassroom="Sale szkolne" bSeparateWeeksTerms="0" nWeeks="0" nTerms="0">
+      <Weeks W0="Wszystkie tygodnie" W1="Tydzień A"/>
+      <Terms T0="Cały rok" T1="Semestr 1"/>
+      <strPrintWeek>Tydzień</strPrintWeek>
+      <strPrintTerm>Semestr</strPrintTerm>
+   </Settings>
+</timetable>

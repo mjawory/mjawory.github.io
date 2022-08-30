@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+	<meta name="description"
+		content="Zajmuję się pomoca psychoterapeutyczną osobom znajdującym się w trudnej sytuacji życiowej.">
+	<meta name="keywords" content="Psychoterapia, Olsztyn, Online, Polska, Warszawa, Gabinet, Gestalt">
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
+	<link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<title>Gabinet Psychoterapii</title>
+</head>
+
+<body>
+
+	<div class="loader">
+		<span class="circle-point lg">
+			<img src="img/logo_load.png" alt="">
+		</span>
+	</div>
+
+	<!--==========HEADER============-->
+
+	<header class="header-style-1 type-1">
+		<div class="header">
+			<a href="index.html" class="logo vertical-align auto">
+				<!---
+			<img src="img/logo.png" alt="" class="logo-default">
+			<img src="img/logo_scroll.png" alt="" class="logo-scroll">
+			 -->
+			</a>
+			<a href="#" class="burger-menu vertical-align right"><i></i></a>
+			<nav class="nav-menu vertical-align auto">
+				<ul>
+					<li class="active"><a id="menu_home" href="#home" class="anchor-link">Home</a></li>
+					<li><a id="menu_for_whom" href="#dlakogo" class="anchor-link">Dla kogo</a></li>
+					<li><a id="menu_about" href="#omnie" class="anchor-link">O mnie</a></li>
+					<li><a id="menu_how" href="#forma" class="anchor-link">Forma Pracy</a></li>
+					<li><a id="menu_contact" href="#contact" class="anchor-link">Kontakt</a></li>
+					<li><a href="#pl" onClick="updateLanguage('pl')" ><i><img src="img/polski.png" width="15px" height="15px"></i> PL</a></li>
+					<li><a href="#en" onClick="updateLanguage('en')" ><i><img src="img/english.png" width="15px" height="15px"></i> EN</a></li>
+					<li><a href="#es" onClick="updateLanguage('es')" ><i><img src="img/spanish.png" width="15px" height="15px"></i> ES</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!--==========TOP BANER============-->
+
+	<div class="top-baner swiper-anime arrow-closest" id="home">
+		<div class="swiper-container top-slider" data-autoplay="0" data-loop="0" data-speed="600" data-center="0"
+			data-slides-per-view="1">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide first-slide" data-val="0">
+					<div class="block-bg">
+						<div class="bg-wrap">
+							<div class="bg" style="background-image:url(img/home_1_main_slide_1.jpg)"></div>
+							<div class="black-layer"></div>
+						</div>
+						<div class="slider-caption vertical-align white-color">
+							<div class="container">
+								<br>
+								<h1 id="baner_1_title" class="h1 caption-stye-1 type-1"><br><br><br>Gabinet Psychoterapii</h1>
+								<div class="simple-text lg">
+									<p id="name_header">dr Marek Jawor</p>
+								</div>
+								<a href="#dlakogo" class="link-style-1 bg-w"><span id="baner_1_button">Zobacz więcej</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide" data-val="2">
+					<div class="block-bg">
+						<div class="bg-wrap">
+							<div class="bg" style="background-image:url(img/home_1_main_slide_2.jpg)"></div>
+							<div class="black-layer"></div>
+						</div>
+						<div class="slider-caption vertical-align white-color">
+							<div class="container">
+								<h1 class="h1 caption-stye-1 type-1"></h1>
+								<div class="simple-text lg">
+
+									<p>
+										<font id="baner_2_individual" size="6px">Terapia Indywidualna</font>
+									</p><br>
+								</div>
+								<div class="simple-text lg">
+									<p>
+										<font id="baner_2_online" size="6px">Terapia On-line</font>
+									</p><br>
+								</div>
+								<div class="simple-text lg">
+									<p>
+										<font id="baner_2_youth" size="6px">Terapia Młodzieży</font>
+									</p><br>
+								</div>
+								<div class="simple-text lg">
+									<p>
+										<font id="baner_2_consultation" size="6px">Konsultacje</font>
+									</p><br>
+								</div>
+								<a href="#forma" class="link-style-1 bg-w"><span id="baner_2_button">Zobacz więcej</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide" data-val="2">
+					<div class="block-bg">
+						<div class="bg-wrap">
+							<div class="bg" style="background-image:url(img/home_1_main_slide_3.jpg)"></div>
+							<div class="black-layer"></div>
+						</div>
+						<div class="slider-caption vertical-align white-color">
+							<div class="container">
+								<h2 class="h1 caption-stye-1 type-1"></h2>
+								<div class="simple-text lg">
+									<br><br>
+									<p>
+										<font id="baner_3_text" size="6px">Przed wizytą proszę o kontakt telefoniczny
+									</p>
+								</div>
+								<div class="simple-text lg">
+									<p>
+										<font id="baner_3_phone" size="8px">tel. 508 56 24 56</font>
+									</p>
+								</div>
+								<a href="#contact" class="link-style-1 bg-w"><span id="baner_3_button">Zobacz więcej</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pagination hidden pagination-style-1"></div>
+			<div class="swiper-arrow-wrap">
+				<div class="swiper-arrow-left swiper-arrow hover-circle"><span class="circle-point"><img
+							src="img/prev_arrow.png" alt=""></span></div>
+				<div class="swiper-arrow-right swiper-arrow hover-circle"><span class="circle-point"><img
+							src="img/next_arrow.png" alt=""></span></div>
+			</div>
+		</div>
+	</div>
+
+	<!--==========MAIN CONTENT============-->
+	<!--      
+       <div class="content">
+      	  
+       	  <section class="section" id="gabinet">
+      	  	 <div class="container" >
+       	  	  <div class="section-caption">
+       	  	  	  <h2 class="h2 caption-stye-1 type-2">Gabinet Psychoterapii</h2>
+       	  	  	    <div class="simple-text sm">
+       	  	  	    	<p>Do gabinetu zapraszam osoby, które przeżywają kryzysy emocjonalne, posiadają niskie poczucie własnej wartości, mają trudności w relacjach z innymi ludźmi, potrzebują wsparcia w zrozumieniu swej orientacji psychoseksualnej, przeżywają kryzys egzystencjalny (brak poczucia sensu życia, lęk przed śmiercią, pustka), znajdują się w sytuacji kryzysowej (żałoba, rozwód, rozstanie), nie radzą sobie z własnymi emocjami, czują się „wypalone” zawodowo, poszukują możliwości rozwoju osobistego.</p>
+       	  	  	    </div>
+       	  	  </div>
+       	         <div class="circle hover-circle">
+       	  	  	  <div class="circle-point big"></div>
+       	  	  	 	<div class="vertical-align">
+       	  	  	 		<span><font color="#5d5d5d"> bo<br> życie<br> jest<br>jedno</span>
+       	  	  	 	</div>
+       	  	  	 </div>
+       	  	  	 	</div>
+       	  	  	 </div>
+       	  	  </div>
+       	  	 </div> 
+			 
+       	  </section>
+		  -->
+	<section class="section bg-grey" id="dlakogo">
+		<div class="container">
+			<div class="section-caption">
+				<h2 id="for_whom_title" class="h2 caption-stye-1 type-2">Dla kogo</h2>
+				<div class="simple-text sm">
+					<p>
+						<font id="for_whom_desc" size="6px">Do gabinetu zapraszam osoby, które:
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<div class="service-block hover-circle">
+						<div class="image lg circle-point"><img src="img/service_icon_1.jpg" alt=""></div>
+						<div class="text">
+							<h4 id="for_whom_col1_1_title" class="h4 title">Emocje</h4>
+							<ul class="list-style-1">
+								<li id="for_whom_col1_1_point1">
+									przeżywają kryzysy emocjonalne
+								</li>
+								<li id="for_whom_col1_1_point2">
+									mają poczucie braku kontroli nad własnym życiem i własnymi
+										emocjami (np. wybuchy gniewu)
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="service-block hover-circle">
+						<div class="image lg circle-point"><img src="img/service_icon_2.jpg" alt=""></div>
+						<div class="text">
+							<h4 id="for_whom_col2_1_title" class="h4 title">Związki</h4>
+							<ul class="list-style-1">
+								<li id="for_whom_col2_1_point1">
+									doświadczają trudności w byciu z drugą osobą
+								</li>
+								<li>
+									<font id="for_whom_col2_1_point2" color="#484848">mają problem ze zbudowaniem szczęśliwego związku
+								</li>
+								<li>
+									<font id="for_whom_col2_1_point3" color="#484848">przeżywają trudności w życiu rodzinnym
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="service-block hover-circle">
+						<div class="image lg circle-point"><img src="img/service_icon_3.jpg" alt=""></div>
+						<div class="text">
+							<h4 id="for_whom_col1_2_title" class="h4 title">Samoocena</h4>
+							<ul class="list-style-1">
+								<li>
+									<font id="for_whom_col1_2_point1" color="#484848">posiadają niskie poczucie własnej wartości
+								</li>
+								<li>
+									<font id="for_whom_col1_2_point2" color="#484848">martwią się, że z niczym sobie nie poradzą
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="service-block hover-circle">
+						<div class="image lg circle-point"><img src="img/service_icon_4.jpg" alt=""></div>
+						<div class="text">
+							<h4 id="for_whom_col2_2_title" class="h4 title">ORIENTACJA PSYCHOSEKSUALNA</h4>
+							<ul class="list-style-1">
+								<li>
+									<font id="for_whom_col2_2_point1" color="#484848">borykają się z akceptacją swojej orientacji psychoseksualnej
+								</li>
+								<li>
+									<font id="for_whom_col2_2_point2" color="#484848">mają wątpliwości z nią związane
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="service-block hover-circle">
+						<div class="image lg circle-point"><img src="img/service_icon_5.jpg" alt=""></div>
+						<div class="text">
+							<h4 id="for_whom_col1_3_title" class="h4 title">Praca</h4>
+							<ul class="list-style-1">
+								<li>
+									<font id="for_whom_col1_3_point1" color="#484848">przeżywają stresy i problemy związane z pracą zawodową lub
+										nauką
+								</li>
+								<li>
+									<font id="for_whom_col1_3_point2" color="#484848">czują się „wypalone” zawodowo
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="service-block hover-circle">
+						<div class="image lg circle-point"><img src="img/service_icon_6.jpg" alt=""></div>
+						<div class="text">
+							<h4 id="for_whom_col2_3_title" class="h4 title">SAMOTNOŚĆ</h4>
+							<ul class="list-style-1">
+								<li>
+									<font id="for_whom_col2_3_point1" color="#484848">doświadczają problemów egzystencjalnych: samotność, izolacja,
+										brak poczucia sensu życia, lęk przed śmiercią, pustka
+								</li>
+								<li>
+									<font id="for_whom_col2_3_point2" color="#484848">doznają cierpienia a jednocześnie nie potrafią określić jego
+										przyczyn
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="service-block hover-circle">
+						<div class="image lg circle-point"><img src="img/service_icon_7.jpg" alt=""></div>
+						<div class="text">
+							<h4 id="for_whom_col1_4_title" class="h4 title">KRYZYS</h4>
+							<ul class="list-style-1">
+								<li>
+									<font id="for_whom_col1_4_point1" color="#484848">znajdują się w sytuacji kryzysowej – bolesne przeżycia
+								</li>
+								<li>
+									<font id="for_whom_col1_4_point2" color="#484848">utraciły bliską osobę (żałoba, rozwód, rozstanie)
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="service-block hover-circle">
+						<div class="image lg circle-point"><img src="img/service_icon_8.jpg" alt=""></div>
+						<div class="text">
+							<h4 id=for_whom_col2_4_title class="h4 title">SAMOROZWÓJ</h4>
+							<ul class="list-style-1">
+								<li>
+									<font id="for_whom_col2_4_point1" color="#484848">chcą się rozwijać i poprawiać jakość swojego życia
+								</li>
+								<li>
+									<font id="for_whom_col2_4_point2" color="#484848">chcą budować zdrowe i dobre relacje z innymi ludźmi
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section bg-grey" id="omnie">
+		<div class="container">
+			<div class="section-caption">
+				<h2 id="about_title" class="h2 caption-stye-1 type-2">O mnie</h2>
+				<div class="simple-text sm">
+				</div>
+			</div>
+			<div class="benefit-block">
+				<div class="bg" style="background-image:url(img/mrk_0001.jpeg)"></div>
+				<div class="col-wh-50 text">
+					<h3 class="h3"></h3>
+					<div class="simple-text">
+						<p id="about_text_p1" style="text-align:left">Całościowe (4-letnie) szkolenie z zakresu psychoterapii ukończyłem w Instytucie Integralnej
+							Psychoterapii Gestalt w Krakowie, który jest ośrodkiem akredytowanym przez EAGT - European
+							Association for Gestalt Therapy (Europejskie Stowarzyszenie Terapii Gestalt). Doświadczenie
+							zawodowe zdobywałem również podczas stażu klinicznego, który odbyłem pod okiem prof. Łukasza
+							Święcickiego na Oddziale Chorób Afektywnych w Instytucie Psychiatrii i Neurologii w
+							Warszawie.
+							<br>
+							<br>
+							Poza szkoleniami z zakresu psychoterapii ukończyłem również warsztat rekomendowany przez
+							Polskie Towarzystwo Seksuologiczne: „European Sexual Diversity Training”. Należę do
+							terapeutów, którzy tworzą przy KPH sieć osób udzielających wsparcia psychologicznego osobom
+							LGBTQ i ich rodzinom: https://kph.org.pl/pomoc/pomoc-psychologiczna/
+							<br>
+							<br>
+							Dbając o wysoką jakość swojej pracy podlegam stałej superwizji oraz kieruję się Kodeksem
+							Etyki Polskiego Towarzystwa Psychoterapii Gestalt. Z pierwszego wykształcenia jestem doktorem nauk humanistycznych w zakresie filozofii. Od
+							ponad 10 lat pracuję w Instytucie Filozofii UWM w Olsztynie.
+							<br>
+							<br>
+							Szkolenia i konferencję:
+						</p>
+						<div class="col-wh-150">
+							<ul class="list-style-1">
+								<li id="about_bullet_1">
+									'Uczelnia wobec studentów z zaburzeniami psychicznymi'
+								</li>
+								<li id="about_bullet_2"> 
+									warsztat 'Fenomenologia sytuacji lub relacji w Terapii
+									Gestalt' prowadzony przez dyrektora Instytutu Gestalt w Oslo - Daana van Baalena
+								</li>
+								<li id="about_bullet_3">
+									seminarium filozoficzno-psychiatryczne pt. 'Relacje'
+								</li>
+								<li id="about_bullet_4">
+									konferencja naukowa 'Wokół osoby psychoterapeuty. Refleksja
+									kliniczna i wyniki badań naukowych' (Instytu Analizy Grupowej 'Rasztów')
+								</li>
+								<li id="about_bullet_5">
+									warsztat z zakresu seksualności pt. 'Praca terapeutyczna w
+									obszarze pola erotycznego' prowadzony przez dr Adama Kincla (Association for
+									Advancements in Gestalt Therapy)
+								</li>
+							</ul>
+							<br>
+							</p>
+							<center>
+								<img src="img/ptpg.png" width="119px" height="90px" style="margin-right: 3cm;">
+
+								<img src="img/eagt.jpeg" width="100px" height="100px">
+							</center>
+							<br>
+							<br>
+							<center>
+								<a href="#oferta" class="link-style-1"><span id="about_button">dla kogo</span></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="section-slider point-padd" id="forma">
+		<div class="container">
+			<div class="section-caption">
+				<h2 id="how_title" class="h2 caption-stye-1 type-2">Forma pracy</h2>
+				<div class="simple-text sm">
+					<p id="how_p1">
+						<font size="4">Psychoterapia Gestalt
+					</p>
+					<p id="how_p2">Psychoterapia jest dla mnie spotkaniem, w którym osoba przychodzącą do gabinetu poszukuje przy
+						wsparciu psychoterapeuty
+						nowych możliwości spojrzenia na świat i na swoją w nim sytuację. Tak powstaje możliwość
+						pomniejszenia cierpienia i podniesienia komfortu
+						życia poprzez wzmocnienie swojego potencjału. Nadrzędnym celem terapii jest osiągnięcie
+						dojrzałości przez zyskanie większej świadomości,
+						a co za tym idzie wzmocnienie swoich potrzeb i umiejętności ich zaspokajania w taki sposób, aby
+						były one słyszane w relacjach z innymi ludźmi.
+				</div>
+			</div>
+			<div class="row">
+				<div class="swiper-container" data-autoplay="0" data-loop="0" data-speed="600" data-center="0"
+					data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3"
+					data-lg-slides="3" data-add-slides="3">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="padd-15">
+								<div class="blog-item">
+									<div class="image hover-circle">
+										<a href="#"><img src="img/blog_img_1.jpg" alt=""></a>
+
+									</div>
+
+									<h4 id="how_card1_title" class="h4 title"><a>Psychoterapia indywidualna</a></h4>
+									<div class="simple-text">
+										<p id="how_card1_text">Są to spotkania indywidualna podczas 50 min. sesji, które odbywają się raz w
+											tygodniu.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="padd-15">
+								<div class="blog-item">
+									<div class="image hover-circle">
+										<a href="#"><img src="img/blog_img_2.jpg" alt=""></a>
+									</div>
+									<h4 id="how_card2_title" class="h4 title"><a>Konsultacje</a></h4>
+
+									<div class="simple-text">
+										<p id="how_card2_text">Jedno lub kilka spotkań z terapeutą, których celem jest zidentyfikowania
+											problemu oraz pomoc w znalezieniu dróg jego rozwiązania.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="padd-15">
+								<div class="blog-item">
+									<div class="image hover-circle">
+										<a href="#"><img src="img/blog_img_4.jpg" alt=""></a>
+									</div>
+									<h4 id="how_card3_title" class="h4 title"><a>Psychoterapia młodzieży</a></h4>
+									<div class="simple-text">
+										<p id="how_card3_text">Są to spotkania indywidualne z osobami będącymi w okresie dojrzewania, czyli
+											w czasie kryzysu rozwojowego, który przynosi ze sobą różne trudności i
+											dylematy. Młody człowiek może doświadczać wtedy niezrozumiałych nastrojów,
+											niepokojących zachowań, czy różnorodnych, gwałtownych reakcji somatycznych i
+											emocjonalnych. Praca rozpoczyna się po konsultacji z adolescentem i
+											rodzicami.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="pagination pagination-style-1 dark bottom-lg"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section" id="contact">
+		<div class="bg ready data-jarallax" data-jarallax="5" style="background-image:url(img/contact_bg.jpg)"></div>
+		<div class="black-layer"></div>
+		<div class="container">
+			<div class="section-caption white-color">
+				<h2 id="contact_title" class="h2 caption-stye-1 type-1">Kontakt ze mną</h2>
+				<div class="simple-text sm">
+					<p id="contact_subtitle">
+						<font size="4px">Przed wizytą proszę o wcześniejszy kontakt telefoniczny.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="contact-block">
+						<div class="contact-item">
+							<h4 id="contact_address_title" class="h4 title">Adres</h4>
+							<ul>
+								<li id="contact_address_1">
+									<font size="4px">ul. Kościuszki 13
+								</li>
+								<li id="contact_address_2">
+									<font size="4px">gabinet nr 318 (III piętro)
+								</li>
+								<li id="contact_address_3">
+									<font size="4px">10-501 Olsztyn
+								</li>
+							</ul>
+						</div>
+						<div class="contact-item">
+							<h4 id="contact_email_title" class="h4 title">e-mail</h4>
+							<a id="contact_email" href="mailto:">
+								<font size="3px">psychoterapia.jawor@gmail.com
+							</a>
+							<br>
+						</div>
+						<div class="contact-item">
+							<h4 id="contact_phone_title" class="h4 title">Telefon</h4>
+							<a id="contact_phone" href="tel:" <font size="4px">+48 508 562 456</a>
+							<br>
+						</div>
+						<div class="contact-item">
+							<h4 class="h4 title">Facebook</h4>
+							<ul>
+								<li><a target="_blank"
+										href="https://www.facebook.com/people/Gabinet-Psychoterapii-Marek-Jawor/100054230240734/"><img
+											src="img/fb.png" height="50" width="50" alt=""></a></< /li>
+							</ul>
+						</div>
+						<!--
+       	  	  			<form action="/" onsubmit="return submitForm();" method="post" name="contactform" class="contact-form" id="contact-form">
+      	  	  			     <h4 class="h4 title">Masz pytanie?</h4>
+       	  	  			     <div class="input-field col-wh-50">
+								 <input placeholder="Imię" name="name" required type="text">
+								 <span></span>
+							 </div>
+							 <div class="input-field col-wh-50">
+								 <input placeholder="Adres e-mail" name="email" required type="email"> 
+								 <span></span>
+							 </div>
+							 <div class="input-field">
+								 <textarea placeholder="Treść" name="message"></textarea>
+								 <span></span>
+							 </div>
+							 <button type="submit" class="link-style-1 submit"><span>Wyślij</span></button> 
+						</form>
+				        <div class="success">
+      	  	  		      <div class="table-align">
+	                          <div class="row-view">
+		                          <div class="cell-view">
+		                             <div class="thanks">
+	                                   <div class="close-popup"><span>X</span></div> 
+		                                <h4 class="h4 title">Wiadomość wysłano</h4>
+		                                  <div class="simple-text">
+		                                  	<p>Opis</p>
+		                                  </div>
+		                             </div>
+				                  </div>
+							  </div>
+							</div>
+      	  	  		    </div>
+						-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div>
+		<center>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2357.3343161712864!2d20.4963043!3d53.7835371!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e279330aa9d955%3A0x29dfcdded09965a9!2sTadeusza%20Ko%C5%9Bciuszki%2013%2C%2011-041%20Olsztyn!5e0!3m2!1spl!2spl!4v1659565624659!5m2!1spl!2spl"
+				width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	</div>
+
+
+	<script>
+
+
+		<section class="section" id="contact">
+			<div class="bg ready data-jarallax" data-jarallax="5" style="background-image:url(img/contact_bg.jpg)"></div>
+
+
+
+			<!--==========FOOTER============-->
+
+			<footer class="footer">
+				<div class="container">
+					<div class="row">
+
+					</div>
+
+				</div>
+				<div class="copyright">
+					<span>2016 Wszelkie prawa zastrzeżone. Marek Jawor</span>
+					<br><br>
+						<span>www.psychoterapia-olsztyn.pl</span>
+					</div>
+					</footer>
+
+					<script>
+						function submitForm() {
+							$.ajax({
+								type: 'POST', url: 'email-action.php', data: $('#contact-form').serialize(), success: function (response) {
+									$('.submit').html('send');
+									$('.success').addClass('active');
+									document.contactform.reset();
+								}
+							});
+						return false;
+	}	
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/2.7.6/idangerous.swiper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+	<script src="js/map.js"></script>
+	<script src="js/SmoothScroll.js"></script>
+	<script src="js/jarallax.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/all.js"></script>
+	<script src="js/anchors.nav.js"></script>
+	<script src="js/changeLanguage.js"></script>
+</body>
+
+</html>
